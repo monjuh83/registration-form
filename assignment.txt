@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Assignment</title>
+</head>
+<body>
+    <h1>Basic Information</h1>
+    <form>
+        <label>Name</label>
+        
+        <input type="text" placeholder="name" required>
+        <br>
+        <br>
+        <label>Gender  </label>
+        <br>
+        <input type="radio" name="gender" checked><label>Male</label>
+        <input type="radio" name="gender"><label>Female</label>
+        <br>
+        <br>
+        <label>DoB  </label>
+        <input type="date">
+        <br>
+        <br>
+      <label>Religion</label>
+        <select>
+            <option>Islam</option>
+            <option>Christianity</option>
+            <option>Agnostic</option>
+            <option>Hinduism</option>
+            <option>Nonreligious</option>
+        </select>
+        <br>
+        <br>
+        <label>Father's Name</label>
+        
+        <input type="text" placeholder="father's name" required>
+        <br>
+        <br>
+        <label>Mother's Name</label>
+        <input type="text" placeholder="mother's name" required>
+        <br>
+    </form>
+    
+    <h1>Contact Information:</h1>
+    <form>
+        <br>
+        
+        <label>Present Address</label>
+        <input type="text" placeholder="present_ address" required>
+        <br>
+        <br>
+        <label>Permanent  Address</label>
+        <input type="text" placeholder="permanent  address" required>
+        <br>
+        <label>Phone</label>
+        <input type="number" placeholder="Number" required>
+        <br>
+        <br>
+        <label>Email</label>
+        <input type="email" placeholder="Email" required>
+        <br>
+        <br>
+        <label>Personal Website Link</label>
+        <input type="url" placeholder=" website link" required>
+        <br>
+ 
+    </form>
+    <h1>Academic Information.</h1>
+    <form>
+        <br>
+        <label>SSC Year</label>
+        <input type="number" placeholder="SSC Year" required>
+        <br>
+        <br>
+        <label>SSC Institution </label>
+        <input type="text" placeholder="SSC Institution " required>
+        <br>
+        <br>
+        <label>HSC Year</label>
+        <input type="number" placeholder="HSC Year" required>
+        <br>
+        <br>
+        <label>HSC Institution </label>
+        <input type="text" placeholder="HSC Institution " required>
+        <br>
+    </form>
+</body>
+</html>
